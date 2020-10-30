@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blogs</title>
+<link rel="stylesheet" href="./css/mystyle.css"/>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+
+<!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container-fluid d-flex">
+
+      <div class="logo mr-auto">
+        <h1 class="text-light"><a href="index.html"><span>Astro Cruise</span></a></h1>
+      </div>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li class="active"><a href="blogs.html">Blogs</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+<!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+        <div class="container-fluid">
+       <nav aria-label="breadcrumb">
+         <ol class="breadcrumb">
+           <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+           <li class="breadcrumb-item active">Blogs</li>
+         </ol>
+       </nav>
+       
+     </div>
+ 
+       </div>
+     </section>
+<!-- End Breadcrumbs -->
+
+
+<!-- ======= Blogs ======= -->
+  <section id="blogs">
+    <div class="container">
+      <h1 class="my-4">Create Blog</h1>
+
+      <div>
+        <form action="" method="post" role="form" class="email-form">
+            <div class="form-group">
+              <input type="text" name="title" class="form-control" id="title" placeholder="Title" required />
+           <br>
+          <div class="form-group">
+            <textarea class="form-control" name="description" rows="5" required placeholder="Description"></textarea>
+            
+      </div>
+      <label for="img">Select image:</label>
+     <input type="file" id="img" name="img" accept="image/*"><br>
+     <button class="btn btn-primary">Create Blog</button>
+      </form>
+      </div>
+    </div>
+      
+    <div class="row">      
+      <div class="col-md-8">
+        <h1 class="my-4">Blogs</h1>
+
+        <!-- Blog Post -->
+        <div class="card mb-4">
+          <img class="card-img-top" src="./images/blog1.jpg" style="height:300px; width: 730px;" alt="Card image cap">
+          <div class="card-body">
+            <h2 class="card-title">Unparalleled Space Exploration</h2>
+            <p class="card-text">NASA scientists and engineers are maturing technology for navigating and landing on planetary bodies by analyzing images during descent – a process called terrain relative navigation (TRN). This optical navigation technology is included on NASA’s newest Mars rover, Perseverance, which will test TRN when it lands on the Red Planet in 2021, paving the way for future crewed missions to the Moon and beyond. TRN is also being used during NASA’s upcoming Origins, Spectral Interpretation, Resources Identification, Security, Regolith Explorer (OSIRIS-REx) mission Touch-and-Go (TAG) event to collect samples of the asteroid Bennu in order to better understand the characteristics and movement of asteroids.</p>
+            <a href="https://www.nasa.gov/feature/goddard/2020/automated-technology-allows-unparalleled-space-exploration-from-moon-to-asteroids-and-beyond" target="_blank" class="btn btn-info">Read More &rarr;</a>
+            <button class="btn btn-success">Edit</button>
+            <button class="btn btn-danger">Delete</button>
+          </div>
+          <div class="card-footer text-muted">
+            Posted on #### by
+            <a href="#">$$$$</a>
+          </div>
+        </div>
+
+        <!-- Blog Post -->
+        <div class="card mb-4">
+          <img class="card-img-top" src="./images/blog2.jpg" style="height: 300px; width:730px;" alt="Card image cap">
+          <div class="card-body">
+            <h2 class="card-title">Can Space Exploration Save Humanity?
+            </h2>
+            <p class="card-text">Today’s headlines about space are dominated by billionaires who dream of escaping their Earth-bound lives or providing new tourist thrills. And the biggest space travel successes in recent memory belong to robots rather than humans. How can we better use space exploration in service of all humanity, not just a favored few? What sorts of social structures and governance practices might make possible greater exploration or even colonization of space? And how might the challenges of traveling through the void of space help us survive an increasingly inhospitable climate here on our home planet?</p>
+            <a href="https://events.kcrw.com/events/can-space-exploration-save-humanity/" target="_blank" class="btn btn-info">Read More &rarr;</a>
+            <button class="btn btn-success">Edit</button>
+            <button class="btn btn-danger">Delete</button>
+          </div>
+          <div class="card-footer text-muted">
+            Posted on #### by
+            <a href="#">$$$$</a>
+          </div>
+        </div>
+
+        <!-- Blog Post -->
+        <div class="card mb-4">
+          <img class="card-img-top" src="./images/blog3.jpg" style="height: 300px; width: 730px;" alt="Card image cap">
+          <div class="card-body">
+            <h2 class="card-title">Space travel breakthrough</h2>
+            <p class="card-text">SPACE travel of the future will need to adopt nuclear electric propulsion, scientists have said, as NASA develops new technologies for human Mars exploration. Since the dawn of the Space Age in the late 1950s, spacecraft have relied on chemical propulsion to leave Earth orbit. Iconic rockets like NASA's Saturn V sent humans to the Moon by burning rocket fuel, to accelerate spacecraft to breakneck speeds. The same, simple technology will power NASA's Space Launch System (SLS), which will service NASA's upcoming Artemis missions to the Moon and back.</p>
+            <a href="https://www.airbus.com/space/space-exploration.html" target="_blank" class="btn btn-info">Read More &rarr;</a>
+            <button class="btn btn-success">Edit</button>
+            <button class="btn btn-danger">Delete</button>
+          </div>
+          <div class="card-footer text-muted">
+            Posted on #### by
+            <a href="#">$$$$</a>
+          </div>
+        </div>
+      </div>
+</div>
+</div>
+</section>
+<!-- End blogs -->
+
+
+<!-- ======= Footer Section ======= -->
+<footer id="footer">
+  <div class="container">
+    <div class="copyright">
+      &copy; Copyright <strong><span>Astro Cruise</span></strong>. All Rights Reserved
+    </div>
+  </div>
+<!-- End Footer --> 
+
+
+</body>
+</html>
