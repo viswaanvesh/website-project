@@ -62,7 +62,7 @@
       </div>
       <label for="img">Select image:</label>
      <input type="file" id="img" name="img" accept="image/*"><br>
-     <button class="btn btn-primary">Create Blog</button>
+     <button class="btn btn-primary" onclick="newBlog()">Create Blog</button>
       </form>
       </div>
     </div>
@@ -72,14 +72,14 @@
         <h1 class="my-4">Blogs</h1>
 
         <!-- Blog Post -->
-        <div class="card mb-4">
+        <div id="blog-1" class="card mb-4">
           <img class="card-img-top" src="./images/blog1.jpg" style="height:300px; width: 730px;" alt="Card image cap">
           <div class="card-body">
             <h2 class="card-title">Unparalleled Space Exploration</h2>
             <p class="card-text">NASA scientists and engineers are maturing technology for navigating and landing on planetary bodies by analyzing images during descent – a process called terrain relative navigation (TRN). This optical navigation technology is included on NASA’s newest Mars rover, Perseverance, which will test TRN when it lands on the Red Planet in 2021, paving the way for future crewed missions to the Moon and beyond. TRN is also being used during NASA’s upcoming Origins, Spectral Interpretation, Resources Identification, Security, Regolith Explorer (OSIRIS-REx) mission Touch-and-Go (TAG) event to collect samples of the asteroid Bennu in order to better understand the characteristics and movement of asteroids.</p>
             <a href="https://www.nasa.gov/feature/goddard/2020/automated-technology-allows-unparalleled-space-exploration-from-moon-to-asteroids-and-beyond" target="_blank" class="btn btn-info">Read More &rarr;</a>
             <button class="btn btn-success">Edit</button>
-            <button class="btn btn-danger">Delete</button>
+            <button class="btn btn-danger" onclick="deleteBlog()">Delete</button>
           </div>
           <div class="card-footer text-muted">
             Posted on #### by
